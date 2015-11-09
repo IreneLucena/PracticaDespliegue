@@ -1,0 +1,15 @@
+;
+;BIND reverse data file for 192.168.3.0
+;
+@IN SOA real.daw04.com debian8.daw04
+1;Serial
+604800;Refresh
+86400;Retry
+2419200;Expire
+604800);Default TTL
+
+IN NDS real.daw04.com
+
+101 IN PTR real.daw03.com
+111 IN PTR 192.168.3.200
+112 IN PTR real.daw04.com
